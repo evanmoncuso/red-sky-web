@@ -12,6 +12,6 @@
   status = 200
 
 [[plugins]]
-# package = 'netlify-plugin-prisma-provider'
-#   [plugins.inputs]
-#   path = 'api/prisma/schema.prisma'
+package = 'netlify-plugin-prisma-provider'
+  [plugins.inputs]
+  path = 'api/prisma/schema.prisma'
