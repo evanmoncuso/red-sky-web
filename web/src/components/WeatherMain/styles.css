@@ -1,0 +1,18 @@
+section.weather-main {
+  margin: 25px auto;
+}
+
+section.weather-main h3 {
+  padding-bottom: 10px;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+section.weather-main .information p {
+  padding-right: 5px;
+}
+
+section.weather-main h4 {
+  font-size: 28px;
+  font-weight: lighter;
+}

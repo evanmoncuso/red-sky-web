@@ -1,0 +1,23 @@
+.sol-header {
+  width: 100%;
+  height: 45px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #eee;
+}
+
+.sol-header > .sol-indicator {
+  width: var(--content-width);
+  margin: 0 auto;
+  text-align: center;
+}
+
+.sol-indicator select {
+  padding: 5px 10px;
+  border: 0;
+  border-radius: 5px;
+  background-color: white;
+}

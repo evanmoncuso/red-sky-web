@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+:root {
+  --content-width: 960px;
+
+  --font-primary: 'Lato', sans-serif;
+  --font-headings: var(--font-primary);
+}
+
+
