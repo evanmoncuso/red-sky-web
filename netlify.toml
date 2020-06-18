@@ -1,5 +1,5 @@
 [build]
-  command = "yarn rw db up --no-db-client && yarn rw build"
+  command = "yarn rw build"
   publish = "web/dist"
   functions = "api/dist/functions"
 
@@ -14,4 +14,4 @@
 [[plugins]]
 package = 'netlify-plugin-prisma-provider'
   [plugins.inputs]
-  # path = 'api/prisma/schema.prisma'
+  path = 'api/prisma/schema.prisma'
