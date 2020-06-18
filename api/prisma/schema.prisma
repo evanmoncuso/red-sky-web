@@ -7,3 +7,9 @@ generator client {
   provider      = "prisma-client-js"
   binaryTargets = env("BINARY_TARGET")
 }
+
+model Sol {
+  name  String @unique
+  title String @unique
+  path  String @unique
+}
